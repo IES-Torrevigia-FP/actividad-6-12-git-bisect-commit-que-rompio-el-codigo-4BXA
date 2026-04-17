@@ -1,0 +1,8 @@
+braham@abraham-VirtualBox:~/Documentos/dev/actividad-6-12-git-bisect-commit-que-rompio-el-codigo-4BXA$ python3 contador.py  5
+6
+
+
+Una explicación de cómo decides si un commit es good o bad.
+
+
+Decidir si un commit es good o bad es el núcleo de la herramienta git bisect, se utiliza para encontrar el momento exacto en que se introdujo un error

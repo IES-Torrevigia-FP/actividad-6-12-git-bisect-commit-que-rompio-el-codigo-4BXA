@@ -1,0 +1,16 @@
+abraham@abraham-VirtualBox:~/Documentos/dev/actividad-6-12-git-bisect-commit-que-rompio-el-codigo-4BXA$ git bisect good d9953a7
+Biseccionando: faltan 0 revisiones por probar después de esta (aproximadamente 0 pasos)
+[e4bedef5cba6ef8edf8d83a441ccd181bbd26c92] Introduce bug en siguiente (suma 2)
+
+
+abraham@abraham-VirtualBox:~/Documentos/dev/actividad-6-12-git-bisect-commit-que-rompio-el-codigo-4BXA$ git bisect good
+0268ac8c52be6ccea26efc1b57376a5f32d159b8 is the first bad commit
+commit 0268ac8c52be6ccea26efc1b57376a5f32d159b8
+Author: Abraham Sánchez <abrahamsanchezm0506@gmail.com>
+Date:   Fri Apr 17 08:37:18 2026 +0200
+
+    Añade comentario 3
+
+ contador.py | 1 +
+ 1 file changed, 1 insertion(+)
+
