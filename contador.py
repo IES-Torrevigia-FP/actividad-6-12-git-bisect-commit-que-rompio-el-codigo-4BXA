@@ -9,3 +9,6 @@ if __name__ == "__main__":
     valor = int(sys.argv[1]) 
     print(siguiente(valor))
 # Log: añadido comentario 1
+
+def siguiente(n):
+    return n + 2 # BUG intencionado: debería ser +1
